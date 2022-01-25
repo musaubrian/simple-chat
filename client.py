@@ -13,3 +13,5 @@ while not done:
         done = True
     else:
         print(msg)
+
+client.close()       
