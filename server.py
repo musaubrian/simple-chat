@@ -15,8 +15,9 @@ while not done:
     if(msg == "quit"):
         done = True
     else:
-        print(msg)    
+        print(msg)
     client.send(input("Message: ").encode('utf-8'))
 
 client.close()
-server.close()    
+server.close()
+# comment
